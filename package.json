@@ -7,9 +7,9 @@
     "dev": "bunx --bun vite",
     "build": "bunx --bun vite build",
     "test": "bun test",
-    "lint": "bunx biome lint --write frontend/src/",
-    "format": "bunx biome format --write frontend/src/",
-    "check": "bunx biome check --write frontend/src/",
+    "lint": "bunx biome lint --write ./src",
+    "format": "bunx biome format --write ./src",
+    "check": "bunx biome check --write ./src",
     "preview": "vite preview"
   },
   "dependencies": {
