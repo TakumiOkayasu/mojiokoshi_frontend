@@ -1,0 +1,22 @@
+{
+	"name": "Bun+React+Vite frontend",
+	"dockerComposeFile": "compose.yaml",
+	"service": "frontend",
+	"workspaceFolder": "/workspace",
+	"mounts": [
+		"source=${localWorkspaceFolder}/,target=/workspace,type=bind"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"biomejs.biome",
+				"eamodio.gitlens",
+				"oven.bun-vscode",
+				"pizzacat83.codic"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "bash"
+			}
+		}
+	}
+}
